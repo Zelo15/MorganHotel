@@ -1,0 +1,49 @@
+
+.footer_logo_container
+{
+
+}
+.footer_logo
+{
+
+}
+.footer_logo a
+{
+    display: inline-block;
+}
+.footer_logo_subtitle
+{
+    font-size: 11px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 0.75;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.footer_logo_title
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 0.75;
+    margin-top: 8px;
+}
+.footer_logo_stars
+{
+    display: inline-block;
+    margin-top: 11px;
+}
+.footer_logo_stars ul li
+{
+    line-height: 0.75;
+}
+.footer_logo_stars ul li:not(:last-child)
+{
+    margin-right: 4px;
+}
+.footer_logo_stars ul li i
+{
+    font-size: 9px;
+    color: #333333;
+}
