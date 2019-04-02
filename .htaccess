@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !{\.css|\.js|\.woff|\.ttf|\.woff2}$
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
+# pl..: tesztoldal.localhost=register/create -> index.php?page=register/create
